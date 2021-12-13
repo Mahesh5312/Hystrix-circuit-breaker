@@ -1,0 +1,10 @@
+server.port: 7005
+server.error.include-message: always
+
+logging:
+  level:
+    root: INFO
+    com.travel: DEBUG
+---
+spring.config.activate.on-profile: docker
+server.port: 8090
